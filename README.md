@@ -49,10 +49,10 @@ local function SetupRadialMenu()
      end 
  end
 ```
-* Go inside `qb-radialmenu > config.lua` and find `["police"]` then replace this:
+* Go inside `qb-radialmenu > config.lua` and find `["police"]` and `["ambulance"]` then replace this:
 ```lua
         {
-            id = 'emergencybutton',
+            id = 'emergencybutton',  <--- or emergencybutton2
             title = 'Emergency button',
             icon = 'bell',
             type = 'client',
