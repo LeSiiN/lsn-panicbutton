@@ -15,7 +15,13 @@ This is a quick Panicbutton script which uses interact-sound to play the sound i
 * Drag and drop resource into your server files
 * Start resource through `server.cfg`
 * Drag and drop sounds folder into `interact-sound\client\html\sounds`
+* Drag and drop the Panicbutton image into your inventory images folder.
 * Edit the `config.cfg`!
+* Add the following line to your `qb-core > shared > items.lua`
+```lua
+['panicbutton'] 				 = {['name'] = 'panicbutton',					['label'] = 'Panic Button',				['weight'] = 100,		['type'] = 'item',		['image'] = 'panicbutton.png', 			['unique'] = true,		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A Button to make Panic'},
+``` 
+
 * Replace the `SetupRadialMenu()` inside your `qb-radialmenu` with the following snippet:
 ```lua
 local function SetupRadialMenu() 
