@@ -9,6 +9,7 @@ This is a quick Panicbutton script which uses interact-sound to play the sound i
 # Depedency
 1. [qb-core](https://github.com/qbcore-framework/qb-core)
 2. [qb-radialmenu](https://github.com/qbcore-framework/qb-radialmenu)
+3. [ps-dispatch](https://github.com/Project-Sloth/ps-dispatch)
 
 # Installation
 * Download ZIP
